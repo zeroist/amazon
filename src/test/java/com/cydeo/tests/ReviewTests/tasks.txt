@@ -1,0 +1,52 @@
+For the Tasks bellow create a new Maven Project, use the latest topics you have learned, like Page Object Modeling, singleton Driver class.
+Share your project on GitHub, create a commit history. Also for each different task create a branch, then merge it when the task is over. (Optional; share you project Github Link at Tasks and Solutions Channel on Discord.)
+
+Task 1: The task consists on the next steps:
+1.	Go to https://www.amazon.com
+2.	Search for "hats for men" (Call from Configuration.properties file)
+3.	Add the first hat appearing to Cart with quantity 2
+4.	Open cart and assert that the total price and quantity are correct
+5.	Reduce the quantity from 2 to 1 in Cart for the item selected in the step 3
+6.	Assert that the total price and quantity has been correctly changed
+The goal of this test is to check if you are able to automate a test of a given
+website, but we'd like you to also demonstrate the coding quality, structure, and style of the deliverables.
+
+Task 2:
+1. Navigate to: https://moneygaming.qa.gameaccount.com/
+2. Click the JOIN NOW button to open the registration page
+3. Select a title value from the dropdown
+4. Enter your first name and surname in the form
+5. Check the tick box with text 'I accept the Terms and Conditions and certify that I am over
+the age of 18.'
+6. Submit the form by clicking the JOIN NOW button
+7. Validate that a validation message with text ‘ This field is required’ appears under the date of
+birth box
+
+
+
+
+Task 3
+Application under test : http://zero.webappsecurity.com/
+Login credentials:
+Username = “username”
+Password = “password”
+Login Feature
+Only authorized users should be able to login to the application. When user logs in
+with valid credentials, Account summary page should be displayed.
+Users with wrong username or wrong password should not be able to login. Users
+with blank username or password should also not be able to login. When user tries
+to login with invalid information, error message “Login and/or password are wrong.”
+should be displayed.
+Account summary Feature
+Account summary page should have the title Zero – Account summary. Account
+summary page should have to following account types: Cash Accounts, Investment
+Accounts, Credit Accounts, Loan Accounts. Credit Accounts table must have columns
+Account, Credit Card and Balance.
+Account Activity Feature
+Account Activity page should have the title Zero – Account activity.
+In the Account drop down default option should be Savings. Account drop down
+should have the following options: Savings, Checking, Loan, Credit Card, Brokerage.
+Transactions table should have column names Date, Description, Deposit,
+Withdrawal.
+NOTE: After you log in add extra step to refresh OR back method with Selenium to overcome security alert message.
+In all test cases do the verifications with TestNG
